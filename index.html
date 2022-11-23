@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <link rel="stylesheet" href="./style/style.css">  
+    <script src="./js/js.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h3>validar firma</h3>
+        
+        <hr>
+
+        <form id="formulario">
+            <!--<label>documento</label>
+            <input class="int" type="file" id="documento">
+
+            <br><br>
+            -->
+            <label>Ingrese el nombre (pagina 1):</label>
+            <input class="int" type="text" id="nombre">
+
+            <br><br>
+
+            <label>ingrese el contenido del texto:</label>
+            <input class="int" type="text" id="contenido">
+
+            <br><br>
+
+            <label>ingrede la firma del documento(ultima pagina)</label>
+            <input class="int" type="text" id="firma">
+
+            <hr>
+
+            <input class="btn-fim" type="button" onclick="validar();" value="validar">
+        </form>
+
+        <a href="https://demma-firmar-pdfs.cyclic.app/?" class="btn-fim">Generar PDF Firmado</a>
+    </div>
+</body>
+</html>
